@@ -11,3 +11,14 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.order-form {
+  max-width: 600px;
+  margin: 0 auto;
+}

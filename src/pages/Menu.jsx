@@ -28,7 +28,7 @@ export const Menu = () => {
 
   return (
     <>
-      <main className="mt-5 text-center">
+      <main className="container mt-5 text-center">
         <h1 className="text-center mb-5">Restaurant Menu</h1>
 
         <h2>Breakfast</h2>
