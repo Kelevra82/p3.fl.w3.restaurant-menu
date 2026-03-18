@@ -5,6 +5,7 @@ import { Error } from "./pages/Error";
 import { Home } from "./pages/Home";
 import { OrderPage } from "./pages/OrderPage";
 import { Navbar } from "./components/Navbar";
+import { Chatbot } from "./pages/Chatbot";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
           <Route
             path="/order"
             element={<OrderPage />}
+          />
+          <Route
+            path="/chatbot"
+            element={<Chatbot />}
           />
           <Route
             path="/*"

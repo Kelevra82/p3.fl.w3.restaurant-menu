@@ -22,3 +22,8 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
+
+.chat-history {
+  max-width: 800px;
+  margin: 0 auto;
+}

@@ -8,7 +8,7 @@ export const Navbar = () => {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <a className="navbar-brand border-bottom">Prime Palette</a>
+          <a className="navbar-brand">Prime Palette</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -47,7 +47,15 @@ export const Navbar = () => {
                   className="nav-link"
                   href="/order"
                 >
-                  Order Now!
+                  Order Now
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="/chatbot"
+                >
+                  Chatbot
                 </a>
               </li>
             </ul>
